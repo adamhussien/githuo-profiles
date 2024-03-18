@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto Condensed", sans-serif; 
+    background-color:#401F71 ;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    width: 60rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    gap: 2rem;
+}
+
+h1{
+font-size: 4rem;
+text-transform: capitalize;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+.form input{
+outline: none;
+border-radius: 1rem;
+padding: .4rem .6rem;
+width: 19rem;
+transition: .2s all ease-in-out;
+
+}
+.form input::placeholder{
+
+    text-transform: capitalize;
+font-style: italic;
+letter-spacing: .1rem;
+   
+}
+.form .input:focus{
+    border-color: #EEE4B1;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.form .input:hover{
+    transform: scalex(1.12);
+}
+.form .btn{
+border: none;
+width:26%;
+font-size: 1rem;
+border-radius: 10px;
+text-transform: capitalize;
+color: #3C3633;
+transition: .4s ease-in-out;
+}
+.form .btn:hover{
+background-color: #637A9F;
+color: #ffff;
+ }
+.container-card .card{
+    display: flex;
+    flex-direction: column;
+    background-color: #00224D;
+    padding: 2rem;
+}
+
+.card .detal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+.detal1 img{
+    width: 7rem;
+    border-radius: 50%;
+}
+.detal1 h2{
+    font-size: 2rem;
+}
+.detal1 .bio{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.join{
+font-size: 1.3rem;
+font-style: italic;
+font-weight: 600;
+}
+.follower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+    background-color: #030c175a;
+    
+}
+
+.follower p {
+font-size: 1.5rem;
+font-style: italic;
+font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
